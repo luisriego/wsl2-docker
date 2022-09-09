@@ -2,25 +2,25 @@
   <a href="https://fullcycle.com.br/" target="blank"><img src="https://fullcycle.com.br/wp-content/themes/fullcycle/assets/images/fullcycle-logo.svg"/></a>
 </p>
 
-# Guia rápido do WSL2 + Docker
+# Guía rápido de WSL2 + Docker
 
-## O que é o WSL2 
+## Que es WSL2 
 
-Em 2016, a Microsoft anunciou a possibilidade de rodar o Linux dentro do Windows 10 como um subsistema e o nome a isto foi dado de **WSL** ou **Windows Subsystem for Linux**.
+En 2016, Microsoft anunció la posibilidad de ejecutar Linux dentro de Windows 10 como un subsistema y se denominó **WSL** o **Windows Subsystem for Linux**..
 
-O acesso ao sistema de arquivos no Windows 10 pelo Linux era simples e rápido, porém não tínhamos uma execução completa do kernel do Linux, além de outros artefatos nativos e isto impossibilitava a execução de várias tarefas no Linux, uma delas é o Docker.
+Acceder al sistema de archivos en Windows 10 a través de Linux era sencillo y rápido, pero no teníamos una ejecución completa del kernel de Linux, además de otros artefactos nativos y esto imposibilitaba la ejecución de varias tareas en Linux, una de ellas es Docker.
 
-Em 2019, a Microsoft anunciou o **WSL 2**, com uma dinâmica aprimorada em relação a 1ª versão:
+En 2019, Microsoft anunció **WSL 2**, con una dinámica mejorada respecto a la 1ª versión:
 
-* Execução do kernel completo do Linux.
-* Melhor desempenho para acesso aos arquivos dentro do Linux.
-* Compatibilidade completa de chamada do sistema.
+* Ejecución del kernel completo de Linux
+* Mejor rendimiento para acceder a los archivos dentro de Linux.
+* Compatibilidad completa de llamada del sistema.
 
-O WSL 2 foi lançado oficialmente no dia 28 de maio de 2020.
+WSL2 se lanzó oficialmente el 28 de mayo de 2020.
 
-Com WSL 2 é possível executar Docker no Linux usando o Windows 10/11.
+Con WSL2 es posible ejecutar Docker en Linux utilizando Windows 10/11.
 
-Compare as versões: [https://docs.microsoft.com/pt-br/windows/wsl/compare-versions](https://docs.microsoft.com/pt-br/windows/wsl/compare-versions)
+Compare las versiones: [https://docs.microsoft.com/pt-br/windows/wsl/compare-versions](https://docs.microsoft.com/pt-br/windows/wsl/compare-versions)
 
 
 ## O que é Docker
